@@ -3,6 +3,7 @@
 **this**绑定：new绑定 > 显示绑定 > 隐式绑定 > 默认绑定
 
 **---JS数组处理函数---**
+
 *splice*：
     （1）删除功能：arr.splice(index,num)，index为起始位置，num为删除个数
     （2）插入功能：arr.splice(index,0,insertVal)，index为插入位置，insertVal为插入项
@@ -32,9 +33,11 @@
 *map*:用于遍历处理数组，返回处理后的新数组
 
 *reduce*:https://blog.csdn.net/Symin_/article/details/120346080
+
 **---JS数组处理函数---**
 
 **---JS字符串处理函数---**
+
 *substring*:用于提取字符串中位于两下标间的字符，返回一个新的字符串
     `String.substring(start,end)`
     String:待处理字符串
@@ -72,9 +75,11 @@
     replaceVal:要替换的值
 
 *大小写转换*:toLowerCase()  toUpperCase()  toLocalLowerCase()  toLocalUpperCase()
+
 **---JS字符串处理函数---**
 
 **---JS对象处理函数---**
+
 *assign*:用于将可枚举的属性从一个或多个源对象分配到目标对象，返回目标对象
     `Object.assign(targetObj,sourceObj...)`
     targetObj:目标对象
@@ -90,4 +95,5 @@
     propName:字符串；属性名
     description:属性描述；对象类型
     https://www.cnblogs.com/junjun-001/p/11761252.html#commentform
+    
 **---JS对象处理函数---**
