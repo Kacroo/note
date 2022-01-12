@@ -97,3 +97,21 @@
     https://www.cnblogs.com/junjun-001/p/11761252.html#commentform
     
 **---JS对象处理函数---**
+
+**时间处理函数**
+function formatDateTime(date){
+    var y = date.getFullYear()
+    var m = date.getMonth() + 1
+    m = m < 10 ? ('0' + m) : m
+    var d = date.getDate()
+    d = d < 10 ? ('0' + d) : d
+    var h = date.getHours()
+    h = h < 10 ? ('0' + h) : h
+    var minute = date.getMinutes()
+    minute = minute < 10 ? ('0' + minute) : minute
+    var second = date.getSeconds()
+    second = second < 10 ? ('0' + second) : second
+    return y + '-' + m + '-' + d + ' ' + h + ':' + minute + ':' + second
+}
+var d = new Date()
+console.log(formatDateTime(d))
