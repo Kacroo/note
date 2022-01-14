@@ -138,3 +138,5 @@ var string = '2022-01-13 14:10:24'
 console.log(Date.parse(string.replace(/-/g,'/'))) // 1642054224000
 // 字符串转日期格式
 console.log(new Date(Date.parse(string.replace(/-/g,'/')))) // 2022-01-13T06:10:24.000Z
+
+null 本身是基本类型，typeof(null)结果为'object'的原因：不同的对象在底层都表示为二进制，在JS中二进制的前三位为0的话会被判定为'object'类型，而null的二进制全是0。
