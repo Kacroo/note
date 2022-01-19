@@ -150,6 +150,8 @@ null 本身是基本类型，typeof(null)结果为'object'的原因：不同的�
       enumerable // 是否可枚举
 > myObject.propertyIsEnumerable('a') // 属性'a'在myObject中是否可枚举
 > Object.keys(myObject) // 返回一个数组，包含myObject本身的可枚举属性
+> Object.values(myObject) // 返回一个数组，包含myObject本身的可枚举键值
+> Object.entries(myObject) // 返回一个数组，包含myObject本身的可枚举键值对
 > Object.getOwnPropertyNames(myObject) // 返回一个数组，包含myObject本身的所有属性
 
 **for...of遍历数组**
