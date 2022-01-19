@@ -36,6 +36,10 @@ new绑定 > 显示绑定 > 隐式绑定 > 默认绑定
 
 *reduce*:https://blog.csdn.net/Symin_/article/details/120346080
 
+*flat*:数组扁平化
+    `arr.flat(val)`
+    val:Number类型；表示要降的维数；不传默认为1；传Infinity表示降为一维数组；不支持IE浏览器
+
 **---JS数组处理函数---**
 
 **---JS字符串处理函数---**
