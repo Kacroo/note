@@ -10,6 +10,7 @@ new绑定 > 显示绑定 > 隐式绑定 > 默认绑定
     （1）删除功能：arr.splice(index,num)，index为起始位置，num为删除个数
     （2）插入功能：arr.splice(index,0,insertVal)，index为插入位置，insertVal为插入项
     （3）替换功能：arr.splice(index,num,insertVal)，index为起始位置，num为删除个数，insertVal为插入项
+    返回值：如果从原数组中删除了元素，则返回含有被删除的数组对象
 
 *slice*:通过索引位置获取新数组，不会改变原数组，返回一个新的数组。
     `arr.slice(start,end)`
