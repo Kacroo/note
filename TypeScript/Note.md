@@ -24,3 +24,8 @@ const name:String | undefined   --- 联合类型，name的类型可以为String�
         name:string
     }
     type User = { age:number } & Person
+    
+    **any和unknown**
+    any类型的值可以被赋予任意值，也可以付给其他值；
+    unknown可以被赋予任意值，但是只能付给any或自身
+    unknown不能读任何属性，也不能调用方法； 
